@@ -1,5 +1,8 @@
 typedef unsigned int ir_t;
 
+#define NULL_IR = 0xffffffff
+#define MAX_COUNT = 0xffffffff >> 3;
+
 enum op_t {
     rshift  = 0,    // >
     lshift  = 1,    // <
